@@ -1,0 +1,28 @@
+[33mcommit 1512967b3baab5735d73934c33431d39a7fa2a91[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: 1704070-maisha <u1704070@student.cuet.ac.bd>
+Date:   Fri Jun 19 23:01:52 2020 +0600
+
+    button file
+
+[1mdiff --git a/ana.py b/ana.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3609c9[m
+[1m--- /dev/null[m
+[1m+++ b/ana.py[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mimport tkinter as tk[m
+[32m+[m[32mroot = tk.Tk()[m
+[32m+[m[32mroot.geometry('400x4000')[m
+[32m+[m
+[32m+[m[32mdef strt():[m
+[32m+[m[32m       label=tk.Label(root,text="hello")[m
+[32m+[m[32m       label.pack()[m
+[32m+[m[32mdef quit():[m
+[32m+[m[32m       root.destroy()[m
+[32m+[m[41m        [m
+[32m+[m[41m        [m
+[32m+[m[32mbutton1 = tk.Button(root, text = 'Click', command=strt)[m
+[32m+[m[32mbutton1.pack()[m
+[32m+[m[32mbutton =tk.Button(root, text = 'Quit', command=quit)[m
+[32m+[m[32mbutton.pack()[m
+[32m+[m[32mroot.mainloop()[m
